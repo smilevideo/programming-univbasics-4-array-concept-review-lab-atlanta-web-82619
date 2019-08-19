@@ -16,7 +16,7 @@ def find_max_value(array)
   max = array[0]
   (array.length - 1).times do |index|
     if array[index + 1] > max 
-      max = array[index]
+      max = array[index + 1]
     end
   end
   return max
