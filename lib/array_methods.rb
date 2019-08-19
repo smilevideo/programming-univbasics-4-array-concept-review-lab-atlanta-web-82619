@@ -8,10 +8,10 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  =begin
+=begin
   array.sort!
   return array[-1]
-  =end
+=end
   
   max = nil 
   array.length.times do |index|
